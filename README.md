@@ -1,5 +1,7 @@
 # astro-twitter-embed
 
+![astro-twitter-embed hero](assets/hero.jpg)
+
 Static Twitter/X embeds for Astro using `{% twitter URL %}` syntax.
 
 **No MDX required. No client-side JS. Pure markdown. Agent-ready.**
