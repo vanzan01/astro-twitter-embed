@@ -1,0 +1,50 @@
+{
+  "name": "astro-twitter-embed",
+  "version": "0.1.0",
+  "description": "Static Twitter/X embeds for Astro using {% twitter URL %} syntax. No MDX required, no client-side JS, AI-agent-friendly.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "astro-integration",
+    "astro",
+    "twitter",
+    "x",
+    "embed",
+    "static",
+    "markdown",
+    "rehype"
+  ],
+  "author": "vanzan01",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vanzan01/astro-twitter-embed"
+  },
+  "peerDependencies": {
+    "astro": "^4.0.0 || ^5.0.0"
+  },
+  "dependencies": {
+    "hast-util-from-html": "^2.0.0",
+    "unist-util-visit-parents": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "astro": "^5.0.0",
+    "typescript": "^5.0.0"
+  }
+}
