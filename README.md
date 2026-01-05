@@ -40,7 +40,7 @@ This is **pure markdown**. No imports. No JSX. No framework lock-in. An agent (o
 ## Installation
 
 ```bash
-npm install astro-twitter-embed
+npm install github:vanzan01/astro-twitter-embed
 ```
 
 ## Setup
