@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "astro dev",
-    "build": "npm run build --prefix .. && astro build",
+    "build": "astro build",
     "preview": "astro preview"
   },
   "dependencies": {

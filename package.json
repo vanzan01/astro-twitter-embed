@@ -16,6 +16,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "build:demo": "npm run build && cd demo && npm install && npm run build",
     "dev": "tsc --watch",
     "prepublishOnly": "npm run build"
   },
